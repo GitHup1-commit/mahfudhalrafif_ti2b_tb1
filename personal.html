@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <title>Informasi Personal</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffffff;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+
+    .top-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 999;
+    }
+
+    header {
+      background-color: #16a085;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #1abc9c;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 30px;
+      max-width: 900px;
+      margin: 160px auto 80px auto;
+    }
+
+    fieldset {
+      border: 2px solid #1abc9c;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+
+    legend {
+      padding: 0 10px;
+      font-weight: bold;
+      color: #1abc9c;
+    }
+
+    mark {
+      background-color: #ffeaa7;
+    }
+
+    code {
+      background-color: #eee;
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+
+    abbr {
+      border-bottom: 1px dotted #888;
+      cursor: help;
+    }
+
+    blockquote {
+      font-style: italic;
+      color: #555;
+      border-left: 4px solid #1abc9c;
+      padding-left: 15px;
+      margin: 20px 0;
+    }
+
+    footer {
+      background-color: #16a085;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      z-index: 998;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <header>
+      <h1>Informasi Personal Mahfudh</h1>
+    </header>
+    <nav>
+      <a href="index.html">Profil</a>
+      <a href="personal.html">Personal</a>
+      <a href="keluarga.html">Keluarga</a>
+      <a href="teman.html">Teman</a>
+      <a href="hobi.html">Hobi</a>
+    </nav>
+  </div>
+
+  <main>
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah seorang mahasiswa <mark>Teknik Informatika</mark> yang berkuliah di Politeknek Negeri Jakarta. Saya tertarik pada pengembangan aplikasi berbasis web dan sistem informasi.</p>
+  
+    <fieldset>
+      <legend>Data Lengkap</legend>
+      <p><strong>Nama Lengkap :</strong> Mahfudh Al Rafif</p>
+      <p><strong>Tempat, Tanggal Lahir:</strong> Padang, 15 September 2006</p>
+      <p><strong>Alamat :</strong> Sukmajaya</p>
+      <p><strong>Agama :</strong> Islam</p>
+      <p><strong>Golongan Darah :</strong>B</p>
+    </fieldset>
+
+    <fieldset>
+        <h3>Musik Favorit</h3>
+        <p>Berikut salah satu lagu favorit saya saat sedang belajar atau bersantai:</p>
+        <audio controls>
+        <source src="wwd.mp3juice.blog - 5 Seconds of Summer - Teeth (Official Video) (256 KBps).mp3" type="audio/mp3">
+        </audio>
+    </fieldset>
+  
+    <h3>Kutipan Favorit</h3>
+    <blockquote>
+      "Setiap Usaha Pasti Membuahkan Hasil"  
+    </blockquote>
+
+  </main>
+  
+
+
+  <footer>
+    Mahfudh Al Rafif
+  </footer>
+</body>
+</html>

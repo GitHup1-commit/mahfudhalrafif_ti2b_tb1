@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <title>Profil Mahfudh</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 999;
+    }
+
+    nav {
+      margin-top: 15px;
+      background-color: #34495e;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      margin-top: 200px; 
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 0.6fr 2.4fr;
+      gap: 20px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    aside {
+      background-color: #ecf0f1;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    section {
+      background-color: #ffffff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+
+    details {
+      margin-top: 15px;
+    }
+
+    video {
+      margin-top: 20px;
+      width: 100%;
+    }
+
+    hr {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Profil Mahfudh Al Rafif</h1>
+    <p>Mahasiswa TI-2B | Politeknik Negeri Jakarta</p>
+    <nav>
+      <a href="index.html">Profil</a>
+      <a href="personal.html">Personal</a>
+      <a href="keluarga.html">Keluarga</a>
+      <a href="teman.html">Teman</a>
+      <a href="hobi.html">Hobi</a>
+    </nav>
+  </header>
+
+  <main>
+    <aside>
+      <h3>Foto Profil</h3>
+      <img src="saya.jpg" alt="Foto Mahfudh">
+      <hr>
+      <h4>Kontak Cepat</h4>
+      <ul>
+        <li>Email: mahfudhalrafif7@email.com</li>
+        <li>Instagram: @mahalra</li>
+      </ul>
+    </aside>
+
+    <section>
+      <h2>Profil Singkat</h2>
+      <p>Halo, saya Mahfudh Al Rafif, mahasiswa dari jurusan Teknik Informatika kelas TI-2B. Saya sangat tertarik dengan pengembangan web, desain UI/UX, dan teknologi open-source.</p>
+
+      <h3>Data Diri</h3>
+      <table>
+        <tr>
+          <th>Nama</th>
+          <td>Mahfudh Al Rafif</td>
+        </tr>
+        <tr>
+          <th>NIM</th>
+          <td>1234567890</td>
+        </tr>
+        <tr>
+          <th>Kelas</th>
+          <td>TI-2B</td>
+        </tr>
+      </table>
+
+      <details>
+        <summary>Lihat Pengalaman </summary>
+        <p>Saya Mahasiswa Informatika lagi melakukan kegiatan menjadi relawan untuk memenuhi tugas kampus</p>
+      </details>
+
+      <video controls>
+        <source src="pengalaman.mp4" type="video/mp4">
+      </video>
+
+      <hr>
+
+      <form>
+        <h3>Kirim Pesan</h3>
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="pesan">Pesan:</label><br>
+        <textarea id="pesan" name="pesan" rows="4" required></textarea><br><br>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    Mahfudh Al Rafif
+  </footer>
+</body>
+</html>
